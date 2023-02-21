@@ -1,0 +1,10 @@
+Throwable                       El punto es un operador, recibe la dirección de memoria
+Is a
+- Exception
+Is a
+- Error
+
+Exceptions
+Runtime
+IO
+NullPointer                     Se manda cuando no hay una dirección de memoria a la qué acceder
