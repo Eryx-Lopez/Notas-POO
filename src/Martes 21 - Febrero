@@ -8,3 +8,25 @@ Exceptions
 Runtime
 IO
 NullPointer                     Se manda cuando no hay una dirección de memoria a la qué acceder
+StackError
+HeapError - OutOfMemoryError
+CheckedException
+
+Para el NULLPOINTER
+Si no te aseguras de que la variable tenga un valor, se pondrá un valor predeterminado, que sería
+NULl. Al mandar a llamar a esa variable, marca un NullPointer por eso.
+
+Para el STACKERROR
+Todas las variables actuales se guardan en la pila.
+Se ponen las variables en un espacio de memoria para usarse después.
+Se empieza un ciclo infinito que termina acabando con la memoria, cuando se detecta
+ese error, marca un StackError.
+
+Para el HEAPERROR
+Al igual que en el stack, se acaba la memoria, suele tardar más ya que tiene más RAM
+
+
+
+
+
+
