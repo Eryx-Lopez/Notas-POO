@@ -1,0 +1,84 @@
+PARADIGMA
+    Es similar a una ideología, la manera de ver las cosas.
+    Un paradigma en la pogramación es el cómo resolver un problema.
+    Hay diferentes formas de solucionar un problema, gracias a los diferentes algoritmos.
+
+    Se suelen combinar diferentes lenguajes de programación, esto depende de lo que quieras hacer con tu programa
+CÓDIGO ESTRUCTURADO
+    Las estructuras aparecen con el tiempo para darle forma al programa.
+    El código estructurado es aquel que tiene estructuras.
+        If
+        For
+
+PROGRAMACIÓN MODULAR
+    El momento en el que empiezas a separar el código
+        UI
+        Process
+    El nombre que yo le ponga al módulo es lo que debe de contener, no debería de haber código de
+    procesamiento con el código de User Interface
+
+CÓDIGO FUNCIONAL
+    Una función siempre se va a comportar de la misma forma.
+    Es diferente de los métodos.
+
+
+
+PROGRAMACIÓN ORIENTADA A OBJETOS
+    Está enfocada principalmente al manejo de datos.
+    Debe de resolver un problema.
+
+    S: Single responsability
+        Cada clase debe de hacer sólo una cosa, bajo el nombre con el que fue diseñada
+        Aquí entra la abstracción.
+        Este concepto no lo revisa el compilador, es más parte de la persona.
+        Una clase es un modelo de algo que existe en el problema.                                WorkArounds.
+        La abstracción es separar una parte de otra, como hacemos en el process y en el CLI      No te pueden pedir algo tan sensible como el teléfono
+
+            CLASES
+                Una clase es una entidad. ES un algo, no es una acción, es sólo algo que existe,
+                 es por esto que las clases no llevan verbos al momento de ser nombradas.
+                 Es un modelo o una plantilla. Es algo abstacto, es una generalización
+                 Define las características que tienen los objetos; en la vida real ves los objetos
+                 no las clases.
+                 Existen los individuos, no los perros ni las personas.
+                    No existen como tal las personas, existe x persona, y persona.
+
+        Un ejemplo es el sistema computacional de un restaurante.
+        Las clases o entidades que debería de tener, salen dependiendo de los servicios que el restaurante tenga
+        o desea tener.
+
+        SERVICIOS                                   CLASES
+            Punto de venta                              Mesa
+            Control de inventario                       Menu
+            Facturación                                 Mesero
+            QR                                          Productos
+            Servicio a domicilio
+            Tomar orden
+
+
+            HERENCIA Y COMPOSICIÓN
+                Esto suele ser una pregunta de entrevista.
+                Cuál es la diferencia, la herencia o la composición.
+                    Hacen alución a el compartir código.
+                    Una clase heradada de otra obtiene las mismas características y se le agregan más.
+
+                    Una composición es aquella que tiene varios elementos
+                        Cuando se agrega una variable a una clase, por ejemplo. Poner variables de otra clase.
+                        Se anidan, hay cosas de cosas.
+                            En el ejemplo del restaurante, a la clase de menú, se le anidan los productos.
+
+    O: Open/Closed principle
+        Las clases están cerradas o abiertas dependiendo lo que quieras hacer.
+        Cuando un objeto interactúa con otro, lo hacen por medio de lo métodos.
+
+        El hacer las clases públicas o privadas.
+            Son convenciones
+                setDato(valordeseado) Asignar
+                getDato               Leer
+            Cuando es un valor booleano
+                isDato                Leer
+    L: Liskov subtitution principle
+    I: Interface segregation principle
+    D: Dependency inversion principle
+
+
