@@ -14,7 +14,7 @@ Se ponen todos los datos en privado y sólo se usan los set y get que vayas nece
 Si lo haces privado y no proporcionas un get, significa que no se quiere saber la información fuera de esa clase.
 Es algo que el sistema necesita saber, pero no los demás usuarios.
 
-Al agregarle un final a una variable (final int) es un valor no modificable, sólo se puede cambiar el valor
+Al agregarle un final a una variable (fnal int) es un valor no modificable, sólo se puede cambiar el valor
 yendo a la línea de código en la que se declaró.
 
 TRANSITIVIDAD
