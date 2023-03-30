@@ -37,6 +37,6 @@ Y al que comparan. Para compararla, (compare to).
 
 POLIMORFISMO
 El tipo de la variable puede no ser el mismo en todos los casos, esto es debido al polimorfismo
-JrEngineer jr2 = new SrEngineer();
-La variable jr2 es de tipo JrEngineer, mientras que el objeto es de tipo SrEngineer.
+Marzo28y30.JrEngineer jr2 = new SrEngineer();
+La variable jr2 es de tipo Marzo28y30.JrEngineer, mientras que el objeto es de tipo SrEngineer.
 
