@@ -33,7 +33,7 @@ Que la clases hagan lo que tienen que hacer y nada más.
 
 Si algo se puede usar mal, se va a usar mal.
 
-Si yo hago un mal acoplamiento, o hay un alto acoplamiento hay un riesgo de que se modifique la otra parte.
+Si yo hago un mal ACOPLAMIENTO, o hay un alto acoplamiento hay un riesgo de que se modifique la otra parte.
 Si yo modifico uno de los dos, puede ser afectado en el otro y crea una dependencia cíclica.
 
 El acoplamiento se puede generar como resultado de una herencia, puesto que también se pasan los métodos
