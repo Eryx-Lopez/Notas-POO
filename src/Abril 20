@@ -1,0 +1,13 @@
+
+JSON
+JavaScript Object Notation
+    Formato ligero para intercambio de datos.
+    Es un objeto que contiene objetos.
+
+        Serializar = pasar a binario, a unos y ceros.
+
+Input String Reader.
+Output String Writer.
+
+Se crea un FileReader  y luego un BufferedReader para almacenar ahí temporalmente los datos.
+FileWriter y BufferedWriter
