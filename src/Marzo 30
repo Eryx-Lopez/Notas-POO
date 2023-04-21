@@ -1,0 +1,53 @@
+CASTING
+ES SÓLO DE VARIABLES
+Es un ajuste, no una conversión.
+El casting es cuando se pasa de un tipo de dato a otro tipo de dato.
+Cuando se trata de pasar de un número grande a uno pequeño, se pierde precisión.
+
+Hay dos tipos de castings:
+- Implícito
+    Lo hace el compilador por ti
+- Explícitos
+    Tú decides tomar el riesgo de si se pierden datos
+
+Empleado —— RH
+    |  \
+   Jr  Manager
+    |     \
+   Sr     CEO
+
+Cuando va de abajo hacia arriba, el casting es implícito, mientras que si va de arriba hacia abajo, se tiene
+que hacer explícita, puesto que el empleado, por ejemplo, tiene más ramas, no sólo la de sr o la de jr, entonces
+te puede regresar unas cosas que no necesitas.
+
+Esto es porque Sr tiene a Jr, porque el Sr tiene todos los conocimientos que tiene un Jr, y un Jr es un empleado,
+al igual que
+
+El tiempo de compilación y el tiempo de ejecución son dos cosas diferentes.
+Un error en el timpo de compilación es cuando no termina de compilar el código porque presenta un error,
+mientras que un error en el tiempo de ejecución es cuando un usuario ingresa un dato no esperado, por ejemplo.
+
+COHESIÓN
+Que la clases hagan lo que tienen que hacer y nada más.
+
+
+Si algo se puede usar mal, se va a usar mal.
+
+Si yo hago un mal ACOPLAMIENTO, o hay un alto acoplamiento hay un riesgo de que se modifique la otra parte.
+Si yo modifico uno de los dos, puede ser afectado en el otro y crea una dependencia cíclica.
+
+El acoplamiento se puede generar como resultado de una herencia, puesto que también se pasan los métodos
+de toda la clase, y puede que alguno de ellos no se necesiten o apliquen en la otra.
+
+
+
+EL STACK Y HEAP
+El stack almacena tipos de datos primitivos y punteros.
+Aquí se guarda el tipo de variable.
+
+
+
+Un objeto no cambia de forma.
+
+
+

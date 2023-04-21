@@ -1,0 +1,28 @@
+ArrayList vs. LinkedList
+Un ARRAYLIST es más rápido en su lectura ya que todos los elementos son vecinos.
+Si sólo se están agregando de manera eventual para su lectura.
+
+LINKEDLIST es más rápido para borrar. Hace referencias a los elementos que se usan.
+Si necesitas una lista que vaya creciendo o decreciendo de manera regular a lo largo del proceso se usa
+LinkedList. Si tu programa necesita estar borrando elementos de forma constante.
+
+Order - Orden de inserción. Si yo agrego diez elementos, la lectura va a ser del que fue el primero en insertarse
+        al último en hacerlo.
+Sort  - Bajo un criterio específico, como lo sería la edad, estatura, etc, depende de lo que se esté hablando.
+
+El tiempo de los HASHMAPS es un tiempo constante, si tienes un elemento o tienes un millón, se va a tardar lo mismo,
+de igual forma para escribirlos. Es el más rápido de todos, pero ocupa mucho espacio.
+
+Un tiempo LINEAL significa que entre más elementos tengas, más se va a tardar en leerlos.
+
+      --------------------------------
+     | A mayor tiempo, menor memoria. |
+      --------------------------------
+
+Todas las variables que estén utilizadas en el método equals, se van a usar en el HASHCODE.
+    - Genera un número int para que no se vuelva a repetir.
+Una colisión es cuando dos objetos generan el mismo hashCode.
+BUCKET. No es lineal, es tal cual una cubeta en donde caben varias cosas.
+
+
+

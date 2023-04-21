@@ -1,0 +1,41 @@
+
+MICRO-SERVICIOS
+Pequeñas aplicaciones que se comunican entre sí para hacer una aplicación más grande.
+
+COMPOSICIÓN
+    - Patrones de diseño
+
+El POLIMORFISMO se divide conceptualmente a dos cosas
+Polimorfismo de objetos.
+    - Por la herencia. Cuando dos clases tienen el mismo método con los mismos parámetros y hace uso del
+    override.
+    - Overloading. Sobre carga. Es un sólo método que puede trabajar de dos formas, sin parámetros y con parámetros.
+Un ejemplo de polimorfismo en la vida real es cuando a ti te conocen de formas diferentes en diferentes grupos sociales
+o bien, te comportas de diferente forma; sigues siendo la misma persona, sólo cambia el cómo te comportas/llaman.
+
+Las INTERFACES sirven para hacerla de traductor entre el usuario y la computadora.
+Ayuda a que el código se vea bonito.
+Una functional Interface sólo tiene un método abstracto, ya que se puede usar como lambda expresion.
+No tiene ni dos, ni cero, sólo uno.
+
+Un prámetro polimórfico es capaz de hacer que el diagrama crezca de forma más natural.
+
+Emp          void trabajar (Empleado e){
+ |                e.trabajar();
+Jr           }
+ |
+Sr
+ |
+Arqui
+
+Me permite que pueda introducir código nuevo, ya que el método trabajar agarra a cualquier empleado, sea
+indirecto o directamente. Como si yo quisiera agregar un arquitecto, que es mayor al Sr.
+
+
+trabajar(new JrEngineer());
+Objeto anónimo, no se guardó ninguna variable. No se conserva, por lo que el recolector de basura se lo lleva.
+La referencia no se guarda en ningún lugar, por lo que ocupa tiempo y espacio en memoria.
+new Empleado(); Crearlo y no usarlo no tiene sentido.
+new Empleado().trabajar();
+
+

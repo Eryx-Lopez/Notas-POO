@@ -1,0 +1,42 @@
+
+La HERENCIA puede ser simple o múltiple, la mayoría de los lenguajes suelen ser simples.
+La herencia en java es simple.
+Lo que quiere decir que sólo tiene una clase madre, mientras que en la herencia múltiple es binaria,
+tiene dos clases.
+
+Los MÉTODOS ABSTRACTOS no tienen cuerpo, sólo tienen un ;
+
+Para clases son extends. Amplía el contenido de la clase.
+Es una ampliación de las características base, sin modificar la clase base.
+
+Para interfaces son implements. Implementar es poner en funcionamiento algún método. Si se implementa una
+interfaz, es básicamente, escribir el código.
+
+Una clase abstracta puede tener al menos un método abstracto, con solo ese método, ya estás obligado a
+hacer abstracta la clase
+
+Las INTERFACES sólo tienen métodos abstractos, es una clase especial. Es una herramienta importante.
+La diferencia entre clase e interfaz, es que las interfaces no son instanciales (ninguna clase abstracta).
+
+Las interfaces aparecen cuando se tienen clases que tienen algo en común.
+Por ejemplo, la clase Jr. Engineer junto con la clase intern, tienen la cualidad de programar, por ende,
+se hace una interface que sea Progammer
+
+Un CONFLICTO es cuando dos clases tienen un método con el mismo nombre y con los mismos parámetros.
+Si tienes dos o más métodos o interfaces que son iguales, tendrás que hacer un override para evitar que el
+compilador
+
+La diferencia entre FOR y WHILE es que en el for ya sé cuánto va a durar, mientras que el while no.
+
+
+COMPARATOR Y COMPARABALE
+El que hace la comparación. Recibe dos métodos u objetos para comparar.
+Y al que comparan. Para compararla, (compare to).
+
+
+
+POLIMORFISMO
+El tipo de la variable puede no ser el mismo en todos los casos, esto es debido al polimorfismo
+Marzo28y30.JrEngineer jr2 = new SrEngineer();
+La variable jr2 es de tipo Marzo28y30.JrEngineer, mientras que el objeto es de tipo SrEngineer.
+

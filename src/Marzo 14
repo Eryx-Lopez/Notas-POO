@@ -1,0 +1,52 @@
+El concepto SHADOWING se aplica
+
+Dentro de la clase MarzoTres:
+    public void setNombre(String nombre) {
+            nombre = nombre;        <- esto
+        }
+
+El scope es el tiempo de vida de una variable, el tiempo en el que está dispobible en la memoria.
+El alcance más cercano, LOCAL, que sucede en donde mismo.
+Las variables locales tinen prioridad sobre las variables globales.
+
+    public void setNombre(String nombre) {
+            this.nombre = nombre;
+        }
+
+Si se pone nombre = nombre, se aplica el mismo valor local, para que se use el valor global, se debe
+de hacer una especificación de que se quiere mandar a llamar a esa variable.
+El this.nombre llama justamante a este nombre, que sería el local.
+
+El que está ejecutando el código es el que hace referencia el this.
+Cada objeto se crea en el heap memory, el this toma el valor de memoria de ese objeto.
+
+El concepto de OBSUCRING es cuando se tienen dos clases con el mismo nombre. Es casi lo mismo que el shadowing,
+pero con clases.
+
+    public void setEdad(int edad) {
+        if (edad < 0){
+            throw new IllegalArgumentException("Edad negativa no aceptada");
+        }
+        this.edad = edad;
+    }
+
+class IllegalArgumentException{}
+
+Se marca un error ya que se tienen dos clases con el mismo nombre, que sería IllegalArgumentException.
+
+
+Un NOMRBE CALIFICADO es un nombre completo.
+El java.lang es un paquete siempre se importa.
+
+
+CONSTRUCTORES
+Es un método que se usa para inicializar valores
+
+
+public boolean equals(Object var1){
+return this == var1;
+}
+
+No compara tanto los valores, compara las direcciones de valores.
+Esta comparación no verifica los parámetros internos de las variables.
+Si quieres hacer un análisis de manera más detallada, se usa el método Override

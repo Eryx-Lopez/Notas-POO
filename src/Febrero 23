@@ -1,0 +1,74 @@
+El HashMap es como unat abla que nos ayuda a meter datos en específico en un solo espacio
+En el reto 5, puede ser utilizado para guardar las letras que pertenecen a la palabra a encontrar
+para luego sustituirla por la x codificada.
+        Lista de repetidos
+
+    1. Codificar
+        Convertir a x
+        Almacenar los valores (letras) en el map
+        Se les asigna un valor de true or false
+    2. Leer valor
+        Se les asigna con map.put(letra) y con map.set(letra, true)
+        Esto es para que se cambie el valor a true cuando el usuario encuentre una letra
+    3. Decodificar
+        Buscar las palabras en el map y cambiarlas en la palabra codificada
+
+
+
+
+EXCEPCIONES
+
+- De compliación
+    - Léxico. Palabras no existentes
+    - Sintáctico. x int, orden incorrecto
+    - Semántico. int i = true, es int de tipo boolean, está mal
+
+- Ejecución
+  Runtime
+    - Throwable
+        - Error
+            Errores que no se pueden solucionar
+            - Cuando se satura la memoria
+        - Exception
+            Valor inválido insertado, debe haber un camino alterno
+            Para esto se puede usar un if, sin embargo, no se recomienda ya que
+            puede confundir si es parte de una validación o parte del algoritmo
+            Tienen diferentes estructuras para arreglarlos.
+                - Try catch
+                    Se pueden tener todos los catch necesarios, para poder evitar las excpeciones
+                    posibles
+
+FINALLY
+Se puede encontrar dentro del try catch.
+Es para que si un error sucede, por ejemplo, se cierre un scanner y/o un archivo para evitar que se
+pierda información.
+Si se recibe un error inesperado dentro del catch, antes de pasar a la siguiente línea de código
+
+try(Scanner scanner = new Scanner(System.in)){
+    Thread.sleep(milis 2345)
+    }   catch (blablbla ex){
+    throw new exception(ex);
+    }
+
+El código anterior es para manejo de errores
+
+THROWS
+Cuando eres sólamente tú el creador, usuario y demás, sí es conveniente usar un try catch
+Si se usa para más personas, otros programadores o demás (si se llegara a usar como librería)
+es mucho mejor el usar throws y throw
+Esto es para que la persona decida qué realizar al recibir el error
+
+throw va se seguido de un objeto de Exception. Genera la expeción. Las siguientes líneas del método
+no se van a utilizar. Como una especie de return.
+
+trhow new IOException("blabla");
+
+public static void CheckedExcpetion() throws InterruptedException, IOException {
+try(Scanner scanner = new Scanner(System.in)){
+    Thread.sleep(milis 2345);
+    throw new IOException("blablaa");
+    }
+}
+
+En este código el throw está puesto de manera forzada, sin embargo, si no hay una excepción
+no se debería de llegar el código a la parte de throws.
