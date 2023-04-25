@@ -1,4 +1,4 @@
-package Marzo28y30;
+package Marzo.Marzo28y30;
 
 public interface Interviewer {
     void interview();

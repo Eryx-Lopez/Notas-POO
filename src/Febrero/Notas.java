@@ -1,3 +1,5 @@
+package Febrero;
+
 public class Notas {
 
     /*  Los paquetes sólo son m
